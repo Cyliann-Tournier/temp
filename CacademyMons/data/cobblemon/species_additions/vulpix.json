@@ -1,0 +1,45 @@
+{
+  "target": "cobblemon:vulpix",
+  "evolutions": [
+    {
+      "id": "vulpix_ninetales",
+      "variant": "item_interact",
+      "result": "ninetales",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone"
+    },
+    {
+      "id": "vulpix_ninetales_alolan",
+      "variant": "item_interact",
+      "result": "ninetales alolan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone"
+    },
+    {
+      "id": "vulpix_ninetales_held_fire",
+      "variant": "level_up",
+      "result": "ninetales",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {"variant": "held_item", "itemCondition": "cobblemon:fire_stone"},
+        {"variant": "level", "minLevel": 1}
+      ]
+    },
+    {
+      "id": "vulpix_ninetales_held_ice",
+      "variant": "level_up",
+      "result": "ninetales alolan",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {"variant": "held_item", "itemCondition": "cobblemon:ice_stone"},
+        {"variant": "level", "minLevel": 1}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "description": {
+    "translatable": "series.rctmod.radicalred.description"
+  },
+  "difficulty": 9,
+  "initialLevelCap": 100,
+  "requiredSeries": [],
+  "title": {
+    "translatable": "series.rctmod.radicalred.title"
+  }
+}

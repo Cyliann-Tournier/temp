@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:auspicious_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.005
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "myths_and_legends:tidal_bell_articuno", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:azelf_fang", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:reins_of_unity", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:ironwill_sword", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:lillies_bag", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:lunar_feather", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:adamant_orb", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:eternatus_core", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:genesect_drive", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:griseous_orb", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:red_orb", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:blue_orb", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:jade_orb", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:lustrous_orb", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:zygarde_cube", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:zygarde_cell", "weight": 1 },
+        { "type": "minecraft:item", "name": "myths_and_legends:zygarde_core", "weight": 1 }
+      ]
+    }
+  ]
+}

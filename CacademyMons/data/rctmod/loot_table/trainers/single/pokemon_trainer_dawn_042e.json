@@ -1,0 +1,86 @@
+﻿{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:bronze_coin",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 99
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 1,
+        "p": 0.4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:silver_coin",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 3,
+        "p": 0.35
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "rctmod:generic/common/pokeballs",
+          "weight": 1000
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rctmod:generic/uncommon/pokeballs",
+          "weight": 500
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rctmod:generic/rare/pokeballs",
+          "weight": 200
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rctmod:generic/epic/pokeballs",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rctmod:generic/legendary/pokeballs",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

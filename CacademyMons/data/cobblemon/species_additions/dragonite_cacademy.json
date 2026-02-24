@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:dragonite",
+  "features": ["cacademy_form"],
+  "forms": [
+    {
+      "name": "cacademy_form",
+      "aspects": ["cacademy_form"],
+      "pokedex": ["cobblemon.species.dragonite-cacademy_form.desc"],
+      "evolutions": [
+        {
+          "id": "cacademy_form_to_normal",
+          "variant": "item_interact",
+          "result": "dragonite cacademy_form=false",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "minecraft:shears"
+        }
+      ]
+    }
+  ],
+  "evolutions": [
+    {
+      "id": "dragonite_to_cacademy_form",
+      "variant": "item_interact",
+      "result": "dragonite cacademy_form=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:bedrock"
+    }
+  ]
+}
